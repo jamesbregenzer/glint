@@ -1,5 +1,11 @@
 # Glint
 
+![CI](https://github.com/jamesbregenzer/glint/actions/workflows/ci.yml/badge.svg?branch=main)
+![Release](https://img.shields.io/github/v/release/jamesbregenzer/glint?display_name=tag)
+![Last commit](https://img.shields.io/github/last-commit/jamesbregenzer/glint)
+![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
 Subtle, reusable **CSS micro-interactions** with copy‑paste snippets and an accessible demo.
 
 **Author:** James Bregenzer — Full‑Stack Developer  
