@@ -33,6 +33,12 @@ Accessible variants respect `prefers-reduced-motion: reduce`.
 ## Status
 Actively maintained in a 6‑project rotation. See [CHANGELOG](./CHANGELOG.md) and [ROADMAP](./ROADMAP.md).
 
+## Demo
+🔗 **Live:** https://jamesbregenzer.github.io/glint/
+
+> Copy selectors from `docs/assets/glint.css`. The demo shows:
+> `.jb-card-hover`, `.jb-focus-ring`, `.jb-button-press`, `.jb-fade-in` (respects `prefers-reduced-motion`).
+
 ## Contributing
 PRs welcome. Keep patterns tiny and purpose‑built. Follow Conventional Commits.
 
