@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Glint — CSS Micro-interactions</title>
+  <link rel="stylesheet" href="assets/glint.css">
+</head>
+<body class="jb-docs">
+  <header class="jb-header">
+    <h1>Glint <span class="jb-sub">CSS micro‑interactions</span></h1>
+    <p>Subtle, reusable CSS patterns. Accessible. No dependencies.</p>
+  </header>
+
+  <main class="jb-grid">
+    <section class="jb-card jb-card-hover">
+      <h2>Card Hover</h2>
+      <p>Gentle elevate on hover/focus.</p>
+      <button class="jb-btn jb-button-press">Try the button</button>
+    </section>
+
+    <section class="jb-card">
+      <h2>Focus Ring</h2>
+      <p>
+        <a href="#" class="jb-link jb-focus-ring">Focusable link</a>
+      </p>
+      <input class="jb-input jb-focus-ring" placeholder="Focusable input">
+    </section>
+
+    <section class="jb-card jb-fade-in" data-observe>
+      <h2>Fade In</h2>
+      <p>Reveals when scrolled into view (JS adds <code>.is-visible</code>).</p>
+    </section>
+  </main>
+
+  <footer class="jb-footer">
+    <p>James Bregenzer — Full‑Stack Developer • <a href="https://jamesbregenzer.com">jamesbregenzer.com</a></p>
+  </footer>
+
+  <script src="assets/glint.js" defer></script>
+</body>
+</html>
