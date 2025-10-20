@@ -1,3 +1,5 @@
+![Banner: Glint — subtle CSS micro-interactions. Accessible, no dependencies, clean CSS.](docs/banner.svg)
+
 # Glint
 
 ![CI](https://github.com/jamesbregenzer/glint/actions/workflows/ci.yml/badge.svg?branch=main)
@@ -5,6 +7,7 @@
 ![Last commit](https://img.shields.io/github/last-commit/jamesbregenzer/glint)
 ![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+[![Maintained by James Bregenzer](https://img.shields.io/badge/maintained%20by-James%20Bregenzer-F5C518?labelColor=000000)](https://jamesbregenzer.com)
 
 Subtle, reusable **CSS micro-interactions** with copy‑paste snippets and an accessible demo.
 
