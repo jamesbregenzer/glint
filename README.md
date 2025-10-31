@@ -30,6 +30,8 @@ Tiny, tasteful interactions make interfaces feel responsive without getting in t
 - **`.jb-focus-ring`** — high-contrast focus ring using `:focus-visible`
 - **`.jb-button-press`** — press depth on active/space/enter
 - **`.jb-fade-in`** — reveal animation (used with `.is-visible`, JS optional)
+- - `**.jb-visually-hidden**` — keep content for screen readers only.
+- `**.jb-link-underline**` — elegant underline that thickens on hover/focus.
 
 Accessible variants respect `prefers-reduced-motion: reduce`.
 
