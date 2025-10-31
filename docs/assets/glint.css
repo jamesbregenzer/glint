@@ -1,51 +1,25 @@
-/* Core layout for demo */
-.jb-docs { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.5; padding: 2rem; }
-.jb-header { max-width: 960px; margin: 0 auto 2rem; }
-.jb-sub { font-size: 0.6em; font-weight: 600; opacity: 0.8; }
-.jb-grid { max-width: 960px; margin: 0 auto; display: grid; gap: 1.25rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
-.jb-card { border-radius: 16px; padding: 1.25rem; border: 1px solid rgba(0,0,0,.08); background: rgba(255,255,255,.04); backdrop-filter: saturate(140%); transition: box-shadow .22s ease, transform .22s ease; }
-.jb-footer { max-width: 960px; margin: 2rem auto 0; font-size: .9rem; opacity: .8; }
 
-/* 1) jb-card-hover: gentle elevate */
-.jb-card-hover:hover,
-.jb-card-hover:focus-within {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(0,0,0,.12);
-}
+/* =====================================================
+   New utilities · v0.1.1
+   ===================================================== */
 
-/* 2) jb-focus-ring: high-contrast focus using :focus-visible */
-.jb-focus-ring:focus { outline: none; }
-.jb-focus-ring:focus-visible {
-  outline: 3px solid currentColor;
-  outline-offset: 2px;
-  box-shadow: 0 0 0 4px rgba(0,0,0,.15);
-}
-
-/* 3) jb-button-press: tactile press */
-.jb-btn { border: 1px solid rgba(0,0,0,.15); border-radius: 999px; padding: .6rem 1rem; background: white; cursor: pointer; }
-.jb-button-press:active { transform: translateY(1px); box-shadow: inset 0 2px 4px rgba(0,0,0,.12); }
-
-/* 4) jb-fade-in: reveal via class (JS optional) */
-.jb-fade-in { opacity: 0; transform: translateY(6px); transition: opacity .36s ease, transform .36s ease; }
-.jb-fade-in.is-visible { opacity: 1; transform: translateY(0); }
-
-/* Respect reduced motion */
-@media (prefers-reduced-motion: reduce) {
-  .jb-card, .jb-button-press, .jb-fade-in { transition: none !important; }
-}
-
-/* a11y: hide visually but keep for screen-readers */
+/* a11y: hide visually but keep for assistive tech */
 .jb-visually-hidden {
-  position:absolute !important;
-  width:1px; height:1px;
-  padding:0; margin:-1px; overflow:hidden;
-  clip:rect(0,0,0,0); white-space:nowrap; border:0;
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
-/* tasteful underline that respects descenders & adapts to color */
+/* tasteful underline that respects descenders & currentColor */
 .jb-link-underline {
   text-decoration: none;
-  background-image: linear-gradient(currentColor,currentColor);
+  background-image: linear-gradient(currentColor, currentColor);
   background-position: 0 100%;
   background-repeat: no-repeat;
   background-size: 100% 2px;
@@ -55,4 +29,3 @@
 .jb-link-underline:focus-visible {
   background-size: 100% 3px;
 }
-

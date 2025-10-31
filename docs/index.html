@@ -1,42 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Glint — CSS Micro-interactions</title>
-  <link rel="stylesheet" href="assets/glint.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Glint · Demo</title>
+  <link rel="stylesheet" href="./assets/glint.css" />
+  <style>
+    body{font:16px/1.6 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial;margin:0;background:#0b0b0b;color:#e6e6e6}
+    .wrap{max-width:980px;margin:40px auto;padding:0 20px}
+    h1,h2{font-weight:700;color:#e6e6e6}
+    code{background:#131313;border:1px solid #222;border-radius:6px;padding:.1rem .35rem}
+    a{color:#F5C518}
+    .card{background:#0f0f0f;border:1px solid #1c1c1c;border-radius:12px;padding:18px;margin:16px 0}
+    .jb-card-hover{transition:transform .2s ease, box-shadow .2s ease}
+    .jb-card-hover:hover,
+    .jb-card-hover:focus-within{transform:translateY(-2px); box-shadow:0 8px 24px rgba(0,0,0,.35)}
+  </style>
 </head>
-<body class="jb-docs">
-  <header class="jb-header">
-    <h1>Glint <span class="jb-sub">CSS micro‑interactions</span></h1>
-    <p>Subtle, reusable CSS patterns. Accessible. No dependencies.</p>
-  </header>
+<body>
+  <div class="wrap">
+    <h1>Glint <small style="font-weight:400;color:#9a9a9a">— demo</small></h1>
+    <p>Tiny CSS micro‑interactions. Copy and paste from <code>docs/assets/glint.css</code>.</p>
 
-  <main class="jb-grid">
-    <section class="jb-card jb-card-hover">
-      <h2>Card Hover</h2>
-      <p>Gentle elevate on hover/focus.</p>
-      <button class="jb-btn jb-button-press">Try the button</button>
-    </section>
+    <h2>New in v0.1.1</h2>
 
-    <section class="jb-card">
-      <h2>Focus Ring</h2>
-      <p>
-        <a href="#" class="jb-link jb-focus-ring">Focusable link</a>
-      </p>
-      <input class="jb-input jb-focus-ring" placeholder="Focusable input">
-    </section>
+    <div class="card jb-card-hover">
+      <h3 class="jb-link-underline"><a class="jb-link-underline" href="#">Elegant underline link</a></h3>
+      <p>This link uses <code>.jb-link-underline</code>, which draws an underline using <code>background-image</code> so descenders look clean. It thickens on hover/focus.</p>
+    </div>
 
-    <section class="jb-card jb-fade-in" data-observe>
-      <h2>Fade In</h2>
-      <p>Reveals when scrolled into view (JS adds <code>.is-visible</code>).</p>
-    </section>
-  </main>
+    <div class="card jb-card-hover">
+      <h3>Visually hidden content</h3>
+      <p><span class="jb-visually-hidden">Screen‑reader note: This sentence is hidden visually but announced by assistive technologies.</span> Add <code>.jb-visually-hidden</code> to hide content visually while keeping it available to screen readers.</p>
+    </div>
 
-  <footer class="jb-footer">
-    <p>James Bregenzer — Full‑Stack Developer • <a href="https://jamesbregenzer.com">jamesbregenzer.com</a></p>
-  </footer>
-
-  <script src="assets/glint.js" defer></script>
+    <p style="color:#9a9a9a">Tip: all animations respect <code>prefers-reduced-motion: reduce</code>.</p>
+  </div>
 </body>
 </html>

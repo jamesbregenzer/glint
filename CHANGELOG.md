@@ -1,5 +1,4 @@
-# Changelog
+## [0.1.1] - 2025-10-31
+- feat: add `.jb-visually-hidden` (a11y helper) and `.jb-link-underline` (underline utility)
+- docs: README updates and small examples section in the demo
 
-## [0.1.0] - 2025-10-18
-- Initial release with four patterns: `.jb-card-hover`, `.jb-focus-ring`, `.jb-button-press`, `.jb-fade-in`.
-- Demo site in `/docs` ready for GitHub Pages.

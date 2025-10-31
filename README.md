@@ -1,15 +1,8 @@
-![Banner: Glint — subtle CSS micro-interactions. Accessible, no dependencies, clean CSS.](docs/banner.svg)
-
 # Glint
 
-![CI](https://github.com/jamesbregenzer/glint/actions/workflows/ci.yml/badge.svg?branch=main)
-![Release](https://img.shields.io/github/v/release/jamesbregenzer/glint?display_name=tag)
-![Last commit](https://img.shields.io/github/last-commit/jamesbregenzer/glint)
-![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
-![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
-[![Maintained by James Bregenzer](https://img.shields.io/badge/maintained%20by-James%20Bregenzer-F5C518?labelColor=000000)](https://jamesbregenzer.com)
+![Banner: Glint — subtle CSS micro‑interactions. Accessible, no dependencies, clean CSS.](docs/banner.svg)
 
-Subtle, reusable **CSS micro-interactions** with copy‑paste snippets and an accessible demo.
+**Glint** is a tiny set of copy‑paste CSS micro‑interactions designed to be accessible by default and dependency‑free.
 
 **Author:** James Bregenzer — Full‑Stack Developer  
 **Site:** https://jamesbregenzer.com  
@@ -21,31 +14,21 @@ Subtle, reusable **CSS micro-interactions** with copy‑paste snippets and an ac
 Tiny, tasteful interactions make interfaces feel responsive without getting in the way. Glint is a personal set of CSS patterns—small, dependency‑free, and accessible by default.
 
 ## Quick start
-- Open the demo: `docs/index.html`
-- Copy any snippet from `docs/assets/glint.css` into your project.
-- JS is optional. `docs/assets/glint.js` only powers the scroll‑reveal example.
+1. Open the demo: `docs/index.html`  
+2. Copy any snippet from `docs/assets/glint.css` into your project.  
+3. JS is optional. `docs/assets/glint.js` only powers the scroll‑reveal example (if present).
 
-## Patterns (v0.1.0)
-- **`.jb-card-hover`** — gentle elevate on hover/focus
-- **`.jb-focus-ring`** — high-contrast focus ring using `:focus-visible`
-- **`.jb-button-press`** — press depth on active/space/enter
-- **`.jb-fade-in`** — reveal animation (used with `.is-visible`, JS optional)
-- - `**.jb-visually-hidden**` — keep content for screen readers only.
-- `**.jb-link-underline**` — elegant underline that thickens on hover/focus.
+## Patterns (v0.1.1)
+- `**.jb-card-hover**` — gentle elevate on hover/focus
+- `**.jb-focus-ring**` — high‑contrast focus ring using `:focus‑visible`
+- `**.jb-button-press**` — press effect on active/space/enter
+- `**.jb-fade-in**` — reveal animation (used with `.is‑visible`, JS optional)
+- `**.jb-visually-hidden**` — keep content for screen readers only
+- `**.jb-link-underline**` — elegant underline that thickens on hover/focus
 
 Accessible variants respect `prefers-reduced-motion: reduce`.
 
-## Status
-Actively maintained in a 6‑project rotation. See [CHANGELOG](./CHANGELOG.md) and [ROADMAP](./ROADMAP.md).
+---
 
-## Demo
-🔗 **Live:** https://jamesbregenzer.github.io/glint/
-
-> Copy selectors from `docs/assets/glint.css`. The demo shows:
-> `.jb-card-hover`, `.jb-focus-ring`, `.jb-button-press`, `.jb-fade-in` (respects `prefers-reduced-motion`).
-
-## Contributing
-PRs welcome. Keep patterns tiny and purpose‑built. Follow Conventional Commits.
-
-## License
-MIT
+## Changelog
+See [CHANGELOG](./CHANGELOG.md).
