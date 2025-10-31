@@ -1,8 +1,6 @@
-# Glint
-
 ![Banner: Glint — subtle CSS micro‑interactions. Accessible, no dependencies, clean CSS.](docs/banner.svg)
 
-**Glint** is a tiny set of copy‑paste CSS micro‑interactions designed to be accessible by default and dependency‑free.
+# Glint
 
 ![CI](https://github.com/jamesbregenzer/glint/actions/workflows/ci.yml/badge.svg?branch=main)
 ![Release](https://img.shields.io/github/v/release/jamesbregenzer/glint?display_name=tag)
@@ -11,6 +9,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 [![Maintained by James Bregenzer](https://img.shields.io/badge/maintained%20by-James%20Bregenzer-F5C518?labelColor=000000)](https://jamesbregenzer.com)
 [![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-black)](https://jamesbregenzer.github.io/glint/)
+
+**Glint** is a tiny set of copy‑paste CSS micro‑interactions designed to be accessible by default and dependency‑free.
 
 **Author:** James Bregenzer — Full‑Stack Developer  
 **Site:** https://jamesbregenzer.com  
